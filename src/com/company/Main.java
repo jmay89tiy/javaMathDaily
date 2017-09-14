@@ -31,17 +31,17 @@ public class Main {
         double remainder = operand1 % operand2;
 
 
+        showResults(sum, difference, division, multiplication, remainder);
 
-        System.out.println(showResults("this is the sum of your numbers, " + sum));
-        System.out.println(showResults("the difference in your numbers, " + difference));
-        System.out.println(showResults("the division of these two numbers, " + division));
-        System.out.println(showResults("the multiplication of these two numbers are, " + multiplication));
-        System.out.println(showResults("the remainder of these two numbers are " + remainder));
 
     }
 
-    public static String showResults (String resultFinal) {
-        return resultFinal;
+    public static void showResults (double sum, double difference, double division, double multiplication, double remainder) {
+        System.out.println("this is the sum of your numbers, " + sum);
+        System.out.println("the difference in your numbers, " + difference);
+        System.out.println("the division of these two numbers, " + division);
+        System.out.println("the multiplication of these two numbers are, " + multiplication);
+        System.out.println("the remainder of these two numbers are " + remainder);
 
     }
 }
